@@ -1,0 +1,20 @@
+- model: tib_backend.Person
+  pk: 0
+  fields:
+    name: 'Person 1'
+    years_range_begin: 1980
+    years_range_end: 1900
+- model: tib_backend.Person
+  pk: 1
+  fields:
+    name: 'Person 2'
+    years_range_begin: 1600
+    years_range_end: 1700
+- model: tib_backend.Sentence
+  pk: 0
+  fields:
+    sentence: 'test sentence 1'
+- model: tib_backend.Sentence
+  pk: 1
+  fields:
+    sentence: 'test sentence 2'
